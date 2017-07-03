@@ -14,8 +14,8 @@ x = list(record.items())[-20:];
 #x = list(record.items())[:20];
 x2 = sorted(x, key=lambda k: k[1]['time'], reverse=True)
 print(x2)
-print (len(record))
-print (len(x2))
+#print (len(record))
+#print (len(x2))
 
 command = ""
 while command != 'exit':
